@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+
+        table {
+            width: 30%;
+            border: 1px solid lightblue;
+        }
+    </style>
+</head>
+<body>
+    <form action="link">
+        <table>
+            <tr>
+                <th colspan="2"> <h2 style="background-color: orangered;">Sở thích của bạn</h2></th>
+            </tr>
+            <tr>
+                <td style="width: 15%;"><label for="hovaten">Họ và tên</label></td>
+                <td><input type="text" name="yourname" id="yourname"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="text" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td style="text-align: justify;"><label for="sothich">Sở thích:</label></td>
+                <td>
+                    <input type="checkbox" name="hobby" id="thethao">Thể thao
+                    <input type="checkbox" name="hobby" id="amnhac">Âm nhạc
+                    <input type="checkbox" name="hobby" id="docsach">Đọc sách
+                    <input type="checkbox" name="hobby" id="luotweb">Lướt web
+                    <input type="checkbox" name="hobby" id="choigame">Chơi game
+                    <input type="checkbox" name="hobby" id="dienanh">Điện ảnh
+                    <input type="checkbox" name="hobby" id="dulich">Du lịch
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Gửi thông tin">
+                    <input type="reset" value="Nhập lại">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+
+</html>

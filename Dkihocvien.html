@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="link">
+        <table>
+            <tr>
+                <td colspan="2" style="font-size: 24px; background-color: lightblue; color: blue;"><b>Đăng kí học viên</b></td>
+            </tr>
+            <tr>
+                <td>Họ và tên</td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <td>Ngày sinh</td>
+                <td><input type="text" id="dob" name="dob"></td>
+            </tr>
+            <tr>
+                <td>Giới tính</td>
+                <td>
+                    <input type="radio" id="nam" name="gender">Nam
+                    <input type="radio" id="nu" name="gender">Nữ
+                </td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><textarea name="location" id="location" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Lớp</td>
+                <td>
+                    <input list="lop" name="lop">
+                    <datalist id="lop">
+                        <option value="Lớp Toán"></option>
+                        <option value="Lớp Văn"></option>
+                        <option value="Lớp Anh"></option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="text" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td><input type="number" id="phone" name="phone"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" id="Dangki" value="Đăng kí">
+                    <input type="reset" id="reset" value="Nhập lại">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
